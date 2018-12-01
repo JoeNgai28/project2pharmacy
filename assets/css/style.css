@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+    font-family: helvetica;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    width: 100px;
+    float: left;
+}
+
+/*
+#loganame {
+    font-family: 'Roboto','sans-serif';
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    color: dodgerblue
+}
+*/
+
+.navbar-header, #navbar-collapse, ul{
+    background-color:lightgreen
+}
+
+.navbar navbar-default affix-top{
+    background-color: red;
+}
+.navbar-brand p {
+    font-family: 'Roboto','sans-serif';
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    color: dodgerblue;
+    line-height: 2.5;
+    
+}
+
+li a {
+    background: lightblue;
+    padding: 10px;
+    text-decoration: none;
+    color: #716A5C;
+    border-radius: 20px;
+}
