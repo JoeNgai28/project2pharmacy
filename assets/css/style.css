@@ -91,11 +91,3 @@ li a {
     color: #716A5C;
     border-radius: 20px;
 }
-
-#about {
-    background-color: lightblue;
-}
-
-#refill {
-    background-image: url("assets/img/refill.jpg");
-}
