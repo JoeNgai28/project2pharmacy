@@ -44,17 +44,17 @@
         <div class="hero-text">
             <h1>Welcome</h1><br>
             <h1>How can we help?</h1>
-         </div>
+        </div>
     </div>
     <!--carousel-->
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-             <div class="product_photo" src="">
-    <img src="assets/img/advil.jpg" id="photo">
-    </div>
-                
-                
+                <div class="product_photo" src="">
+                    <img src="assets/img/advil.jpg" id="photo">
+                </div>
+
+
             </div>
             <!-- <div class="fluid-container"> -->
             <div id="carousel-example-generic" class="carousel slide col-md-6" data-ride="carousel">
@@ -177,22 +177,19 @@
     <!--Custom script here-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-     var ImageArr1 = new Array (            "assets/img/advil.jpg","assets/img/babybottle.jpg","assets/img/babyformula.jpg","assets/img/arthritiscream.jpg","assets/img/babyrattle.jpg","assets/img/arthritiscream.jpg","assets/img/betacatatine.jpg","assets/img/cosmetics.jpg","assets/img/eyeshadow.jpg","assets/img/foundation.jpg","assets/img/fishoil.jpg","assets/img/kidsvitamins.jpg","assets/img/giftcards.jpg","assets/img/prenatal.jpg","assets/img/lipstick.jpg","assets/img/lysol.jpg","assets/img/makeup.jpg","assets/img/nyquil.jpg","assets/img/pampers.jpg","assets/img/toothpaste.jpg","assets/img/stuffanimals.jpg"
-        )
+        var ImageArr1 = new Array("assets/img/advil.jpg", "assets/img/babybottle.jpg", "assets/img/babyformula.jpg", "assets/img/arthritiscream.jpg", "assets/img/babyrattle.jpg", "assets/img/arthritiscream.jpg", "assets/img/betacatatine.jpg", "assets/img/cosmetics.jpg", "assets/img/eyeshadow.jpg", "assets/img/foundation.jpg", "assets/img/fishoil.jpg", "assets/img/kidsvitamins.jpg", "assets/img/giftcards.jpg", "assets/img/prenatal.jpg", "assets/img/lipstick.jpg", "assets/img/lysol.jpg", "assets/img/makeup.jpg", "assets/img/nyquil.jpg", "assets/img/pampers.jpg", "assets/img/toothpaste.jpg", "assets/img/stuffanimals.jpg")
         var ImageHolder1 = document.getElementById("photo");
 
-        function RotateImages(Start){
-        var a = eval("ImageArr1");
-        var b = eval("ImageHolder1");
-        if(Start>=a.length)
-        Start=0;
-        b.src = a[Start];
-        window.setTimeout("RotateImages("+(Start+1)+")",2500);
+        function RotateImages(Start) {
+            var a = eval("ImageArr1");
+            var b = eval("ImageHolder1");
+            if (Start >= a.length)
+                Start = 0;
+            b.src = a[Start];
+            window.setTimeout("RotateImages(" + (Start + 1) + ")", 2500);
         }
 
-        RotateImages(1,0);
-     
-    
+        RotateImages(1, 0);
     </script>
 </body>
 

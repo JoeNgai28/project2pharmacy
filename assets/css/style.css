@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 * {
     font-family: helvetica;
     box-sizing: border-box;
@@ -22,15 +23,18 @@
 */
 
 
-.navbar-header, #navbar-collapse, ul{
-    background-color:lightgreen
+.navbar-header,
+#navbar-collapse,
+ul {
+    background-color: lightgreen
 }
 
-.navbar navbar-default affix-top{
+.navbar navbar-default affix-top {
     background-color: red;
 }
+
 .navbar-brand p {
-    font-family: 'Roboto','sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     font-size: 40px;
     font-style: italic;
     font-weight: 900;
@@ -46,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(,0,0,0.7),rgba(0,0,0,0.7));
+    background-image: linear-gradient(rgba(, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     height: 50%;
     background: center;
     background-repeat: no-repeat;
@@ -56,18 +60,18 @@
 }
 
 .hero-text {
-   font-family: 'Roboto','sans-serif';
-   text-align: left;
-   position: absolute;
-   top: 30%;
-   left: 45%;
-   transform: translate(-65%, -50%);
-   color: white;
+    font-family: 'Roboto', 'sans-serif';
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-65%, -50%);
+    color: white;
     color: purple;
 }
-    
-.hero-text h1{
-    font-weight:bolder;
+
+.hero-text h1 {
+    font-weight: bolder;
     text-shadow: 2px 2px white;
 }
 
@@ -75,8 +79,8 @@
     width: auto;
 }
 
-.carousel-caption{
-    color:yellow;
+.carousel-caption {
+    color: yellow;
     font-weight: bold;
 }
 
@@ -88,7 +92,10 @@ li a {
     border-radius: 20px;
 }
 
-#about{
+#about {
     background-color: lightblue;
 }
 
+#refill {
+    background-image: url("assets/img/refill.jpg");
+}
